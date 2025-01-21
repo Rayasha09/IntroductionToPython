@@ -34,16 +34,16 @@ greens_price = 50
 chocolate_price = 200
 
 buy_apple = input("Do you want to buy an apple for 150 com? (yes/no): ")
-buy_apple = buy_apple.lower() == "yes"
+buy_apple = buy_apple == "yes"
 
 buy_mandarin = input("Do you want to buy an orange for 100 com? (yes/no): ")
-buy_mandarin = buy_mandarin.lower() == "yes"
+buy_mandarin = buy_mandarin == "yes"
 
 buy_greens = input("Do you want to buy greens for 50 com? (yes/no): ")
-buy_greens = buy_greens.lower() == "yes"
+buy_greens = buy_greens== "yes"
 
 buy_chocolate = input("Do you want to buy chocolate for 200 com? (yes/no): ")
-buy_chocolate = buy_chocolate.lower() == "yes"
+buy_chocolate = buy_chocolate == "yes"
 
 expenses = 0
 
